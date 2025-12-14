@@ -1,18 +1,29 @@
-# React + Vite
+# **Shipping BOX**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web application for calculating optimal shipping box sizes using the MVC (Model-View-Controller) architectural pattern for clean separation of concerns and maintainable code structure.
 
-Currently, two official plugins are available:
+## **Features**:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## **Two Main Views**:
 
-## React Compiler
+**1. Form View** - Allows users to add shipment details including receiver name, box weight, color selection (via color picker), and destination country with country-specific shipping rate multipliers.
+**2. Table View** - Displays all captured shipments in a tabular format with visual representation of box colors and automatically calculated shipping costs in INR.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## **Prerequisites**
 
-Note: This will impact Vite dev & build performances.
+- Node
+- npm
 
-## Expanding the ESLint configuration
+## **Tech Stack**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+react - frontend library
+redux - state management
+yup - form validation
+react-router-dom - routing
+
+## **Steps to build the project**
+
+step 1: clone the repo(git clone https://github.com/MrNischal/shippingBox.git)
+step 2: change the current directory to shippingbox project(cd ./[..path]/)
+step 3: run this command "npm install" to install all the dependencies
+step 4: run this command "npm run dev" to ignite the project locally
