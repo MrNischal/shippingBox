@@ -6,9 +6,9 @@ import "./Navbar.css";
 const Navbar = () => {
 	return (
 		<nav className='Navbar'>
-			{NAV_LIST.map((navItem) => {
+			{NAV_LIST.map((navItem, index) => {
 				return (
-					<Link to={navItem.path}>
+					<Link to={navItem.path} key={index}>
 						<span>{navItem.title}</span>
 					</Link>
 				);
