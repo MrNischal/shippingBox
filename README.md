@@ -24,7 +24,7 @@ A web application for calculating optimal shipping box sizes using the MVC (Mode
 
 ## **Steps to build the project**
 
-step 1: clone the repo(git clone https://github.com/MrNischal/shippingBox.git)
-step 2: change the current directory to shippingbox project(cd ./[..path]/)
-step 3: run this command "npm install" to install all the dependencies
-step 4: run this command "npm run dev" to ignite the project locally
+- step 1: clone the repo(git clone https://github.com/MrNischal/shippingBox.git)
+- step 2: change the current directory to shippingbox project(cd ./[..path]/)
+- step 3: run this command "npm install" to install all the dependencies
+- step 4: run this command "npm run dev" to ignite the project locally
