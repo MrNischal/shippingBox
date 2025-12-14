@@ -16,10 +16,10 @@ A web application for calculating optimal shipping box sizes using the MVC (Mode
 
 ## **Tech Stack**
 
-react - frontend library
-redux - state management
-yup - form validation
-react-router-dom - routing
+- react - frontend library
+- redux - state management
+- yup - form validation
+- react-router-dom - routing
 
 ## **Steps to build the project**
 
