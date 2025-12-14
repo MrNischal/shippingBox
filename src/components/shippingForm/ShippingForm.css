@@ -1,0 +1,171 @@
+.page-wrapper {
+	margin-top: 20px;
+}
+.form-page-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: calc(100vh - 60px);
+	padding: 20px;
+}
+
+.shipping-form-container {
+	width: 100%;
+	max-width: 400px;
+	background: #ffffff;
+	border-radius: 8px;
+	padding: 30px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	border: 1px solid #e0e0e0;
+	margin: 0 auto;
+}
+.formField {
+	margin-bottom: 20px;
+}
+
+.formField label {
+	display: block;
+	margin-bottom: 6px;
+	font-weight: 500;
+	color: #333;
+	font-size: 14px;
+}
+
+/* Text/Number Input Field */
+.formField input[type="text"],
+.formField input[type="number"],
+.formField select {
+	width: 100%;
+	padding: 10px 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 14px;
+	background: #fff;
+	color: #333;
+	font-family: inherit;
+}
+
+.formField input[type="text"]:focus,
+.formField input[type="number"]:focus,
+.formField select:focus {
+	outline: none;
+	border-color: #1a73e8;
+}
+
+/* Color Input */
+.color-input-wrapper {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin-top: 6px;
+}
+
+.formField input[type="color"] {
+	width: 40px;
+	height: 40px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	cursor: pointer;
+	padding: 1px;
+}
+
+.color-display {
+	font-family: "Courier New", monospace;
+	font-size: 13px;
+	color: #666;
+	padding: 6px 10px;
+	background: #f8f8f8;
+	border-radius: 3px;
+	border: 1px solid #e0e0e0;
+}
+.color-box-container {
+	display: flex;
+	flex-direction: column;
+}
+
+/* dropdown */
+.formField select {
+	cursor: pointer;
+	appearance: none;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%23666' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/%3E%3C/svg%3E");
+	background-repeat: no-repeat;
+	background-position: right 12px center;
+	padding-right: 32px;
+}
+
+/* SUbmit Button */
+#submitButton {
+	width: 100%;
+	padding: 12px;
+	background: #1a73e8;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	font-size: 14px;
+	font-weight: 500;
+	cursor: pointer;
+	margin-top: 10px;
+	font-family: inherit;
+}
+
+#submitButton:hover {
+	background: #0d62d9;
+}
+
+#submitButton:disabled {
+	background: #9e9e9e;
+	cursor: not-allowed;
+}
+
+/* Error  */
+
+.error-message {
+	margin-top: 4px;
+	font-size: 12px;
+	color: #d93025;
+}
+
+.error-message p {
+	margin: 0;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+	.form-page-container {
+		min-height: calc(100vh - 56px);
+		padding: 16px;
+	}
+
+	.shipping-form-container {
+		padding: 24px;
+	}
+}
+/* Mobile */
+@media (max-width: 480px) {
+	.form-page-container {
+		min-height: calc(100vh - 52px);
+		padding: 12px;
+	}
+
+	.shipping-form-container {
+		padding: 20px;
+	}
+
+	.color-input-wrapper {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 8px;
+	}
+
+	.color-display {
+		width: 100%;
+		text-align: center;
+	}
+}
+
+/* Large screens */
+@media (min-width: 1400px) {
+	.shipping-form-container {
+		max-width: 420px;
+	}
+}

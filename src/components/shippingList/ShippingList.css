@@ -1,0 +1,18 @@
+.shipping-list-page {
+	padding: 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+	.shipping-list-page {
+		padding: 16px;
+	}
+}
+/* Mobile */
+@media (max-width: 480px) {
+	.shipping-list-page {
+		padding: 12px;
+	}
+}
