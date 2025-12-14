@@ -7,6 +7,7 @@ A web application for calculating optimal shipping box sizes using the MVC (Mode
 ## **Two Main Views**:
 
 **1. Form View** - Allows users to add shipment details including receiver name, box weight, color selection (via color picker), and destination country with country-specific shipping rate multipliers.
+
 **2. Table View** - Displays all captured shipments in a tabular format with visual representation of box colors and automatically calculated shipping costs in INR.
 
 ## **Prerequisites**
